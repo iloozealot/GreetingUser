@@ -8,6 +8,6 @@ Console.WriteLine("What is your first name?");
 string? userName = Console.ReadLine();
 //Console.WriteLine("Thank you for using my application " + username + ".");
 Console.WriteLine($"Thank you for using my application {userName}.");
-Console.WriteLine($"{userName}, what is you favorite color?");
+Console.WriteLine($"{userName}, what is your favorite color?");
 string? userColor = Console.ReadLine();
 Console.WriteLine($"{userColor} is my favorite too!");
